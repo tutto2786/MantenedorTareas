@@ -7,13 +7,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.SequenceGenerator;
-import javax.persistence.Table;
-
 
 import org.springframework.data.annotation.Id;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -22,7 +19,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
 @Entity
-@Table(name = "Tareas")
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
